@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clear {
+  clear: both;
+}
+body{
+  background-color: #faf4f2;
+}
+.header {
+  background-color: #f8e1db;
+  padding: 10px 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header .logo img {
+  width: 70px;
+}
+.header .header__navbar {
+  margin-top: 15px;
+}
+.header .header__navbar a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header .header__navbar a:hover {
+  color: #ff0000;
+}
+.carousel {
+  height: 1000px;
+  background: url("../img/BG.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.activity {
+  padding: 80px 0;
+  text-align: center;
+}
+.activity .title {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.activity .title h2 {
+  font-size: 3.5rem;
+  color: #8d8d8d;
+  padding: 20px;
+}
+.activity .main .row .col {
+  float: left;
+  width: 25%;
+  padding: 0 20px;
+}
+.activity .main .row .col .item {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 32px 52px;
+  margin-bottom: 40px;
+}
+
+.activity .thumbnail img {
+  width: 100%;
+  border-radius: 28px;
+}
+.activity .main .row .col .item h1 {
+  padding: 15px 0;
+  color: #3a3735;
+}
+.activity .main .row .col .item p {
+  color: #8e8e8e;
+  font-size: 1.25rem;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.activity .main .row .col .item a {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding: 20px 62px;
+  background-color: #e8e8e8;
+  border-radius: 28px;
+  text-decoration: none;
+  color: #8d8d8d;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+.activity .main .row .col .item a:hover {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+.item .thumbnail i {
+  color: #ff0000;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  position: relative;
+  top: 52px;
+  left: 110px;
+}
+.activity .btn-bottom {
+  margin-top: 15px;
+  border: 2px solid;
+  padding: 20px 100px;
+  border-radius: 30px;
+  border-color: #faf4f2;
+  border-color: #e2ad00;
+  color: #e2ad00;
+  font-size: 20px;
+}
+.activity .btn-bottom:hover {
+  color: #fff;
+  background-color: #e2ad00;
+  cursor: pointer;
+}
+.contact
+{
+  width: 100%;
+  background-color: #F8E1DB;
+  height: 390px;
+  border-radius: 50px;
+  margin-bottom: 150px;
+}
+.contact .camp {
+  float: left;
+}
+.contact .camp img {
+  position: absolute;
+}
+.contact .camp img:first-child {
+  left: -500px;
+}
+.contact .camp img:last-child {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.touch-app
+{
+  position: absolute;
+  left: 1000px;
+  margin-top: 50px;
+  color: #8D8D8D;
+}
+.touch-app .title h2
+{
+ font-size: 2.3rem;
+ margin-bottom: 20px;
+ display: inline;
+}
+.touch-app .title p
+{
+  font-size: 1.25rem;
+  line-height:30px;
+}
+div.download-app
+{
+  float: left;
+}
+.download-app h3{
+  padding:30px 0;
+}
+.download-app img:last-child
+{
+  padding: 10px 0 0 10px;
+}
+.follow h3
+{
+  padding:30px 0;
+  margin-left: 0px;
+}
+div.follow i
+{
+  padding: 10px 0 0 20px;
+  color: #E76F51;
+  font-size: 1.75rem;
+}
+.footer
+{
+  border-radius: 50px;
+  background-color: #F8E1DB;
+  height: 550px;
+}
+.hipcamp
+{
+  float: left;
+  margin-top: 140px;
+  padding: 0 70px;
+}
+.hipcamp h3{
+  font-size: 1.85rem;
+  padding-bottom: 30px;
+}
+.hipcamp p{
+  font-size: 1.5rem;
+  line-height: 40px;
+}
+.letus, .plan, .letus2
+{
+  float: left;
+  margin-top: 140px;
+  padding: 0 0 20px 70px;
+}
+.letus h3, .plan h3, .letus2 h3
+{
+  font-size: 2rem;
+  padding-bottom: 20px;
+} 
+.letus li, .plan li, .letus2 li
+{
+  list-style-type: none;
+  font-size: 1.25rem;
+  padding: 10px 0;
+}
+.letus li a, .plan li a, .letus2 li a
+{
+  text-decoration: none;
+  color: #3B3836;
+}
+.letus li a:hover, .plan li a:hover, .letus2 li a:hover
+{
+  font-weight: bold;
+}
+/* FIX LỖI ĐẨY DIV LETUS 2 TẠO THÀNH ANIMATION NGOÀI Ý MUỐN */
+.plan li:first-child a:hover
+{
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+.liscense
+{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.3rem;
+  font-style: italic;
+}
