@@ -6,7 +6,7 @@
 .clear {
   clear: both;
 }
-body{
+body {
   background-color: #faf4f2;
 }
 .header {
@@ -118,10 +118,9 @@ body{
   background-color: #e2ad00;
   cursor: pointer;
 }
-.contact
-{
+.contact {
   width: 100%;
-  background-color: #F8E1DB;
+  background-color: #f8e1db;
   height: 390px;
   border-radius: 50px;
   margin-bottom: 150px;
@@ -139,102 +138,100 @@ body{
   margin-top: 20px;
   margin-left: 40px;
 }
-.touch-app
-{
+.touch-app {
   position: absolute;
   left: 1000px;
   margin-top: 50px;
-  color: #8D8D8D;
+  color: #8d8d8d;
 }
-.touch-app .title h2
-{
- font-size: 2.3rem;
- margin-bottom: 20px;
- display: inline;
+.touch-app .title h2 {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+  display: inline;
 }
-.touch-app .title p
-{
+.touch-app .title p {
   font-size: 1.25rem;
-  line-height:30px;
+  line-height: 30px;
 }
-div.download-app
-{
+div.download-app {
   float: left;
 }
-.download-app h3{
-  padding:30px 0;
+.download-app h3 {
+  padding: 30px 0;
 }
-.download-app img:last-child
-{
+.download-app img:last-child {
   padding: 10px 0 0 10px;
 }
-.follow h3
-{
-  padding:30px 0;
+.follow h3 {
+  padding: 30px 0;
   margin-left: 0px;
 }
-div.follow i
-{
+div.follow i {
   padding: 10px 0 0 20px;
-  color: #E76F51;
+  color: #e76f51;
   font-size: 1.75rem;
 }
-.footer
-{
+.footer {
   border-radius: 50px;
-  background-color: #F8E1DB;
+  background-color: #f8e1db;
   height: 550px;
 }
-.hipcamp
-{
+.hipcamp {
   float: left;
   margin-top: 140px;
   padding: 0 70px;
 }
-.hipcamp h3{
+.hipcamp h3 {
   font-size: 1.85rem;
   padding-bottom: 30px;
 }
-.hipcamp p{
+.hipcamp p {
   font-size: 1.5rem;
   line-height: 40px;
 }
-.letus, .plan, .letus2
-{
+.letus,
+.plan,
+.letus2 {
   float: left;
   margin-top: 140px;
   padding: 0 0 20px 70px;
 }
-.letus h3, .plan h3, .letus2 h3
-{
+.letus h3,
+.plan h3,
+.letus2 h3 {
   font-size: 2rem;
   padding-bottom: 20px;
-} 
-.letus li, .plan li, .letus2 li
-{
+}
+.letus li,
+.plan li,
+.letus2 li {
   list-style-type: none;
   font-size: 1.25rem;
   padding: 10px 0;
 }
-.letus li a, .plan li a, .letus2 li a
-{
+.letus li a,
+.plan li a,
+.letus2 li a {
   text-decoration: none;
-  color: #3B3836;
+  color: #3b3836;
 }
-.letus li a:hover, .plan li a:hover, .letus2 li a:hover
-{
+.letus li a:hover,
+.plan li a:hover,
+.letus2 li a:hover {
   font-weight: bold;
 }
 /* FIX LỖI ĐẨY DIV LETUS 2 TẠO THÀNH ANIMATION NGOÀI Ý MUỐN */
-.plan li:first-child a:hover
-{
+.plan li:first-child a:hover {
   font-size: 1.15rem;
   font-weight: bold;
 }
-.liscense
-{
+.liscense {
   text-align: center;
   margin-top: 50px;
   font-size: 1.3rem;
   font-style: italic;
+}
+
+.viewAll_btn {
+  display: none;
 }
